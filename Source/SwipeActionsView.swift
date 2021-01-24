@@ -118,7 +118,7 @@ class SwipeActionsView: UIView {
             self.backgroundColor = backgroundColor
         }
         else if #available(iOS 13.0, *) {
-            backgroundColor = UIColor.systemGray5
+            backgroundColor = .white
         } else {
             backgroundColor = .white
         }
